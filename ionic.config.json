@@ -1,0 +1,7 @@
+{
+  "name": "arkadia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
