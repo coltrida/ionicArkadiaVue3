@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "arkadia",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
