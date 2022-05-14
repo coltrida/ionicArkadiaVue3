@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 
 const routes: Array<RouteRecordRaw> = [
   { path: '/', component: () => import ('../views/HomePage.vue') },
+  { path: '/prova', component: () => import ('../views/ProvaPage.vue') },
   { path: '/primanota/entrata', component: () => import ('../views/primanota/EntrataPage.vue') },
   { path: '/primanota/uscita', component: () => import ('../views/primanota/UscitaPage.vue') },
   { path: '/primanota/mese', component: () => import ('../views/primanota/MesePage.vue') },
