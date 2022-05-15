@@ -21,7 +21,7 @@
           <img src="/assets/home.jpg"/>
           <ion-card-header>
             <ion-card-title>Arkadia Onlus</ion-card-title>
-            <ion-card-subtitle>Software Gestionale</ion-card-subtitle>
+            <ion-card-subtitle router-link="prova">Dove sono</ion-card-subtitle>
           </ion-card-header>
           <ion-card-content style="margin-top: 52px">
             Copyright - All rights reserved, by <a href="#" class="text-white">@Coltricat</a>
