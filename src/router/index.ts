@@ -21,6 +21,7 @@ const routes: Array<RouteRecordRaw> = [
   { path: '/associa/attivitaRagazzo', component: () => import ('../views/associa/AttivitaragazzoPage.vue') },
   { path: '/associa/operatoreOre', component: () => import ('../views/associa/OperatoreorePage.vue') },
   { path: '/login', component: () => import ('../views/LoginPage.vue') },
+  { path: '/agricoltura', component: () => import ('../views/agricoltura/AgricolturaPage.vue') },
 ];
 
 const router = createRouter({

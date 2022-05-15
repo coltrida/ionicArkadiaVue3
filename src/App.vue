@@ -146,6 +146,19 @@
                   </ion-menu-toggle>
                 </ion-list>
               </ion-accordion>
+
+              <ion-accordion value="agricoltura" v-if="role == 1">
+                <ion-item slot="header">
+                  <ion-label>Agricoltura</ion-label>
+                </ion-item>
+                <ion-list slot="content">
+                  <ion-menu-toggle auto-hide="false" >
+                    <ion-item @click="selectedIndex = 18" router-direction="root" router-link="/agricoltura" lines="none" detail="false" class="hydrated" :class="{ selected: selectedIndex === 18 }">
+                      <ion-label>Agricoltura</ion-label>
+                    </ion-item>
+                  </ion-menu-toggle>
+                </ion-list>
+              </ion-accordion>
             </ion-accordion-group>
             </div>
             <div v-else>

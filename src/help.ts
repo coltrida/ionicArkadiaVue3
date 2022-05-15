@@ -33,6 +33,9 @@ const help = () => {
         linkaggiungistassociazione: base+'attivita/ragazzo/associa',
         linkaggiungistassociazioneoperatoreore: base+'operatori/associaOre',
         linklogin: base+'login',
+        linkprimodelmese: base+'primoDelMese',
+        linkcaricaagricoltura: base+'agricoltura',
+        linkcaricaagricolturameseanno: base+'agricolturaMeseAnno',
     };
 };
 export default help;
